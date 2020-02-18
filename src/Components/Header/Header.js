@@ -20,6 +20,13 @@ render(){
         <div className='main-header'>
             <header>
                 <h2>Start Bootstrap</h2>
+                <nav className='desknav'> 
+                    <a href='#'>Services</a>
+                    <a href='#'>Portfolio</a>
+                    <a href='#'>About</a>
+                    <a href='#'>Team</a>
+                    <a href='#'>Contact</a>
+                </nav>
                 <button className='btn' onClick={this.toggleMenuView}>Menu</button>
 
                
